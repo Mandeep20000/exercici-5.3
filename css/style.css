@@ -1,30 +1,29 @@
-*{
-    box-sizing:border-box;
+ html, body {
+    width:100%;
+    height: 100%;
     margin:0;
     padding:0;
-    }
-    
-    p{color:#fff;}
-    
-    .container-fluid{
-    width:100%;
-    }
-    
-    
-    .container{
-    max-width:1080px;
-    width:100%;
-    margin:auto;
-    padding:32px;
-    }
-    
-    .center{text-align:center;}
-    .black{background-color:#252525;}
-    
-    .parallax{
-    height:500px;
-    background-image:url('globos.jpg');
-    background-size:cover;
-    background-attachment: fixed;
-    }
-    
+}
+
+seccion{
+    width: 100%;
+    height:100%;
+    padding:0;
+    margin:0;
+
+}
+
+.parrallax{
+background: #fff fixed no-repeat 50% 50%;
+background-size: cover;
+}
+
+#seccion1{
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iebschool.com%2Fblog%2Fgeneradores-de-imagenes-con-ia-que-debes-conocer-tecnologia%2F&psig=AOvVaw0aoOk9bWhY3WzGmzp4E_1K&ust=1677503887927000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOC8r4yjs_0CFQAAAAAdAAAAABAE');
+}
+
+#seccion2{
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.educaciontrespuntocero.com%2Frecursos%2Fmejores-bancos-de-imagenes%2F&psig=AOvVaw0aoOk9bWhY3WzGmzp4E_1K&ust=1677503887927000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOC8r4yjs_0CFQAAAAAdAAAAABAI');
+
+}
+

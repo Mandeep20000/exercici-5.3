@@ -1,23 +1,30 @@
-body{
-    margin: 0;
-}
-
-h3{
-    font-size: 38px;
-}
-
-.container{
-    padding: 40px;
-
-}
-
-.nav{
-justify-content: space-between;
-display: flex21;
-}
-
-.seccion-1{
-    text-align: center;
-    padding: 150px 0;
-
-}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+    
+    p{color:#fff;}
+    
+    .container-fluid{
+    width:100%;
+    }
+    
+    
+    .container{
+    max-width:1080px;
+    width:100%;
+    margin:auto;
+    padding:32px;
+    }
+    
+    .center{text-align:center;}
+    .black{background-color:#252525;}
+    
+    .parallax{
+    height:500px;
+    background-image:url('globos.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    }
+    

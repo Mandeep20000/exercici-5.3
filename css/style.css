@@ -13,6 +13,7 @@ h3{
 
 .nav{
 justify-content: space-between;
+display: flex21;
 }
 
 .seccion-1{

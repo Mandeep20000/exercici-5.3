@@ -14,3 +14,9 @@ h3{
 .nav{
 justify-content: space-between;
 }
+
+.seccion-1{
+    text-align: center;
+    padding: 150px 0;
+
+}
